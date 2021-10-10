@@ -1,0 +1,62 @@
+html {
+  background-image: linear-gradient(to bottom right, gray, #fbbd08);
+  height: 100%;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  position: sticky;
+}
+
+
+#task-frontend {
+
+	max-width: 500px;
+  margin: 0 auto;
+	text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: aliceblue;
+  margin-top: 5%;
+}
+
+
+#task-frontend .basic-title {
+  color: #fbbd08!important;
+  text-shadow: 1.5px 2px black;
+}
+
+#task-frontend form>label {
+	margin: 1000px auto 0 auto;
+}
+
+#task-frontend input[type="text"], #task-frontend input[type="email"] {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid black;
+  width: 80%;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#task-frontend span {
+  display: block;
+}
+
+#task-frontend input[type="checkbox"] {
+	text-transform: none;
+  cursor: pointer;
+}
+
+#task-frontend input[type="submit"] {
+	color: black;
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+  background-color: #f7d779;
+  border-radius: 5px;
+  cursor: pointer;
+}
